@@ -17,6 +17,7 @@ export class ComentariosComponent implements OnInit, AfterContentChecked {
   @Input() valueSearch: string = '';
   comentarios: Comentario[] = [];
   comentariosFiltrados: Comentario[] = [];
+  showComentarios: boolean = false;
 
   constructor(private comentariosService: ComentariosService) {}
 
@@ -37,9 +38,11 @@ export class ComentariosComponent implements OnInit, AfterContentChecked {
     this.comentariosService.buscarComentarios().subscribe({
       next: (result) => {
         this.comentarios = result;
+        this.showComentarios = true;
       },
       error: (err) => {
         console.error(err);
+        this.showComentarios = false;
       },
     });
   }
@@ -57,6 +60,10 @@ export class ComentariosComponent implements OnInit, AfterContentChecked {
       c.titulo.toUpperCase().includes(this.valueSearch.toUpperCase())
     );
 
-    console.log(this.comentariosFiltrados);
+    if (this.comentariosFiltrados.length > 0) {
+      this.showComentarios = true;
+    } else {
+      this.showComentarios = false;
+    }
   }
 }
