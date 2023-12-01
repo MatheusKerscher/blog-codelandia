@@ -26,6 +26,7 @@ export class ComentariosComponent implements OnInit, AfterContentChecked {
 
   ngAfterContentChecked(): void {
     if (this.valueSearch) {
+      console.log(this.valueSearch);
       this.filtrarComentarios();
     } else {
       this.comentariosFiltrados = [];
@@ -35,7 +36,6 @@ export class ComentariosComponent implements OnInit, AfterContentChecked {
   populate() {
     this.comentariosService.buscarComentarios().subscribe({
       next: (result) => {
-        console.log(result);
         this.comentarios = result;
       },
       error: (err) => {
@@ -54,7 +54,9 @@ export class ComentariosComponent implements OnInit, AfterContentChecked {
 
   filtrarComentarios() {
     this.comentariosFiltrados = this.comentarios.filter((c) =>
-      c.titulo.includes(this.valueSearch)
+      c.titulo.toUpperCase().includes(this.valueSearch.toUpperCase())
     );
+
+    console.log(this.comentariosFiltrados);
   }
 }
