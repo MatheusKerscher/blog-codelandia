@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "themes";
+
+*,
+:host {
+  font-family: "Lexend", sans-serif;
+}
+
+.container {
+  margin: 0 10em;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background: var(--main-content-background-color);
+  color: var(--main-content-text-color);
+}

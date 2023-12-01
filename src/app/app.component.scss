@@ -1,0 +1,20 @@
+.toggle-tema {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 20px
+}
+
+header {
+  min-height: 20vh;
+  background: var(--header-background-color) !important;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}

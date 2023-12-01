@@ -1,0 +1,41 @@
+[data-theme="light"] {
+  --header-background-color: linear-gradient(to right, #574ae8, #3ea1db);
+  --header-color-title-primary: #ffffff;
+  --header-color-title-secondary: #ffffff;
+
+  --main-content-background-color: #f3f5f7;
+  --main-content-text-color: #231f20;
+
+  --card-comentario-background-color: #ffffff;
+  --card-comentario-border-color: transparent;
+  --card-comentario-data-color: #717171;
+  --card-comentario-titulo-color: #1a202c;
+  --card-comentario-comentario-color: #717171;
+  --card-comentario-favorito-color: #574ae8;
+
+  --input-search-background: #ffffff60;
+  --input-search-border: transparent;
+  --input-search-icon-color: #ffffff;
+  --input-search-text-color: #ffffff;
+}
+
+[data-theme="dark"] {
+  --header-background-color: #17171a;
+  --header-color-title-primary: #e07b67;
+  --header-color-title-secondary: #ffffff;
+
+  --main-content-background-color: #121214;
+  --main-content-text-color: #ffffff;
+
+  --card-comentario-background-color: #17171A;
+  --card-comentario-border-color: #252529;
+  --card-comentario-data-color: #e07b67;
+  --card-comentario-titulo-color: #ffffff;
+  --card-comentario-comentario-color: #717171;
+  --card-comentario-favorito-color: #e07b67;
+
+  --input-search-background: #202024;
+  --input-search-border: #252529;
+  --input-search-icon-color: #e07b67;
+  --input-search-text-color: #afabb6;
+}

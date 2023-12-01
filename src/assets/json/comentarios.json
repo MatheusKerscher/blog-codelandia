@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "data": "02-06-2021",
+    "titulo": "Agora é oficial: o Windows 11 está vindo",
+    "corpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.",
+    "favorito": false
+  },
+
+  {
+    "id": 2,
+    "data": "03-07-2021",
+    "titulo": "Tim Berners-Lee vai leiloar código-fonte da web",
+    "corpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.",
+    "favorito": false
+  },
+
+  {
+    "id": 3,
+    "data": "04-08-2021",
+    "titulo": "Tem Firefox novo no pedaço e você vai querer migrar",
+    "corpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.",
+    "favorito": false
+  },
+
+  {
+    "id": 4,
+    "data": "05-09-2021",
+    "titulo": "John McAfee, criador do antivírus McAfee, morre",
+    "corpo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo. Vestibulum nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et, interdum ullamcorper libero.",
+    "favorito": false
+  }
+]

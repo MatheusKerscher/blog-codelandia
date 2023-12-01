@@ -1,0 +1,18 @@
+<h1 class="title">
+  <span class="parte-um">Code</span>
+
+  <span class="parte-dois">lândia</span>
+</h1>
+
+<div class="field-search">
+  <span class="icon-search">
+    <fa-icon [icon]="faSearch"></fa-icon>
+  </span>
+  <input
+    #inputSearch
+    type="text"
+    class="input-search"
+    placeholder="Pesquisar no blog"
+    (keyup)="onSearch(inputSearch.value)"
+  />
+</div>

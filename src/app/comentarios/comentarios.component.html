@@ -1,0 +1,3 @@
+<div class="container-comentario" *ngFor="let c of comentariosFiltrados.length > 0 ? comentariosFiltrados : comentarios">
+  <app-card-comentario [comentario]="c" (emmiterClick)="favoritar($event)"></app-card-comentario>
+</div>

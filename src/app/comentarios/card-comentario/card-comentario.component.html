@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="card-header">
+    <div class="infos">
+      <span class="data">{{ formatarData(comentario?.data) }}</span>
+
+      <button class="btn-favorito" type="button" (click)="onClick()">
+        <fa-icon
+          [icon]="comentario?.favorito ? faHeartSolid : faHeartRegular"
+        ></fa-icon>
+      </button>
+    </div>
+
+    <h3 class="titulo">
+      {{ comentario?.titulo }}
+    </h3>
+  </div>
+  <div class="card-main">
+    <p class="corpo">
+      {{ comentario?.corpo }}
+    </p>
+  </div>
+</div>
