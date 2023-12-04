@@ -1,27 +1,51 @@
-# Blog
+# Blog Codelândia
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
+![GitHub repo size](https://img.shields.io/github/repo-size/MatheusKerscher/blog-codelandia?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/MatheusKerscher/blog-codelandia?style=for-the-badge)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img src="src/assets/preview/preview.png" alt="Página do blog codelândia">
 
-## Code scaffolding
+> O Blog Codelândia foi desenvolvido a partir do design feito no Figma  pela comunidade Codelândia no [Discord](https://discord.gg/uHWE7QbXnp). Atualmente você pode alterar o tema do site, buscar por um comentário e curtir um comentário.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🥳 Visualizar o projeto
 
-## Build
+Caso não queira instalar e usar o Blog Codelândia localmente, ele também está hospedado. Sendo possível, através desse [link](https://meu-blog-codelandia.netlify.app/), você ser redirecionado para ele.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 Pré-requisitos
 
-## Running unit tests
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+ 
+- Você deve ter instalado na sua máquina [Node.js](https://nodejs.org/en) e [Angular CLI](https://angular.io/guide/setup-local)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Instalando Blog Codelândia
 
-## Running end-to-end tests
+Para instalar o Blog Codelândia, siga estas etapas:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Clone o repositório:
 
-## Further help
+```
+git clone https://github.com/MatheusKerscher/blog-codelandia.git
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Acesse a pasta do repositório:
+
+```
+cd blog-codelandia/
+```
+
+Instale as dependências do projeto:
+``` 
+npm i
+```
+
+## ☕ Usando Blog Codelândia
+
+Para usar Blog Codelândia, siga estas etapas:
+
+Executar e a abrir o projeto:
+```
+ng s -o
+```
+
+> A flag "-o" fará o projeto já ser aberto em uma nova guia no navegador padrão do seu compuador.
