@@ -43,7 +43,7 @@ npm i
 
 Para usar Blog Codelândia, siga estas etapas:
 
-Executar e a abrir o projeto:
+Executar e abrir o projeto:
 ```
 ng s -o
 ```
